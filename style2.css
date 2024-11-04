@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light background color */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels to the left */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="tel"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #007BFF; /* Blue border */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border-color: #0056b3; /* Darker blue when focused */
+    outline: none; /* Remove outline */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+.redirect {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.redirect a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redirect a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
