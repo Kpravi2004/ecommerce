@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service - Contact Us | ShopNow</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">ShopNow</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup1.html">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Customer Service Contact Section -->
+    <section class="customer-service-contact">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Contact Our Customer Service</h2>
+                <p>If you have any questions, concerns, or need assistance, please reach out to our customer service team. We're here to help!</p>
+
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="order-id">Order ID (Optional):</label>
+                        <input type="text" id="order-id" name="order-id" placeholder="Enter your order ID">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="issue-type">Issue Type:</label>
+                        <select id="issue-type" name="issue-type">
+                            <option value="order-inquiry">Order Inquiry</option>
+                            <option value="product-inquiry">Product Inquiry</option>
+                            <option value="return-or-exchange">Return/Exchange</option>
+                            <option value="technical-support">Technical Support</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Describe your issue or question" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Customer Service Contact Info Section -->
+            <div class="contact-info">
+                <h3>Alternative Ways to Reach Us</h3>
+                <p>If you'd prefer to reach us through other means, here are our alternative contact details:</p>
+                <ul>
+                    <li><strong>Phone:</strong> +1 800 123 4567 (Mon-Fri, 9 AM - 6 PM EST)</li>
+                    <li><strong>Email:</strong> support@shopnow.com</li>
+                    <li><strong>Live Chat:</strong> Available 24/7 on our website</li>
+                    <li><strong>Address:</strong> 123 Shopping Lane, Commerce City, USA</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ShopNow - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
